@@ -1,0 +1,44 @@
+ul {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul .tasks-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 0.4rem;
+    width: 33vw;
+    padding: 1rem 0rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #2f2f2f;
+    list-style-type: none;
+}
+ul .tasks-container .task {
+    background-color: #2f2f2f;
+    font-size: 1.2rem;
+}
+ul .tasks-container .task span {
+    margin: 0;
+    border: 0;
+    background-color: #2f2f2f;
+}
+ul .tasks-container .task span .not-checked {
+    width: 3vw;
+    height: 3vh;
+    background-color: #2f2f2f;
+    cursor: pointer;
+}
+ul .tasks-container button {
+    border: 0;
+    padding: 0;
+    background-color: #2f2f2f;
+    cursor: pointer;
+}
+ul .tasks-container button .trash {
+    fill: #653aab;
+    width: 3vw;
+    height: 3vh;
+    background-color: #2f2f2f;
+}
